@@ -300,3 +300,22 @@ body.print .efe .task4img {
 body.print footer {
     display: none;
 }
+
+/*全屏显示大图*/
+.opacityBottom{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:rgba(0,0,0,0.8);
+    z-index:1000;
+    top: 0;
+    left: 0;
+}
+.bigImg{
+    width: 854px;
+    height: 480px;
+    left:25%;
+    top:25%;
+    position:fixed;
+    z-index: 10001;
+}

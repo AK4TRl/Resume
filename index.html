@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css?_t=2">
+    <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="assets/js/styles.js"></script>
 </head>
 <body class="">
 <div class="site">
@@ -56,7 +59,7 @@
                             </h4>
                             <p>从师兄手上接过来的，已经处于最后阶段，我负责“关于我们”，“登录注册”页面和“个人信息”部分页面，并按后来的需求对
                                 各个页面进行小更改。</p>
-                            <a href="http://www.beibeitou.com" target="_blank"><img src="assets/img/beibeitou.png" alt=""></a><p>（初版截图）</p>
+                            <img id="bbt1" src="assets/img/beibeitou.png"onclick="clickToBigImg(this.id)" alt="Click to enlarge"><p>（初版截图）</p>
                     </ul>
                     <ul class="exp">
                         <li>
@@ -64,9 +67,13 @@
                             <h4>ASP.NET 实训项目 2016.12
                                 <a href="https://github.com/AK4TRl/MealTimeOnline" target="_blank"><i class="fa fa-link"></i>Link</a>
                             </h4>
-                            <p>大三上的ASP.NET课程的一个实训，仿照饿了吗等外卖网站做的一个校园点餐网站，基于MVC设计模式，前端是bootstrap，jquery搭
+                            <p>大三上的ASP.NET课程的一个实训，仿照饿了吗和github首页做的一个校园点餐网站，基于MVC设计模式，前端是bootstrap，jquery搭
                                 建。我负责的方面是页面的设计开发和处理前后端数据的交互，也算是第一次接触到了MVC,MVVM这类设计模式。
                             </p>
+                            <p>网站包括有点餐，结账，个人信息页</p>
+                            <img id="asp1" src="assets/img/findandeat.png" onclick="clickToBigImg(this.id)" alt="Click to enlarge">
+                            <img id="asp2" src="assets/img/cart.png" onclick="clickToBigImg(this.id)" alt="Click to enlarge">
+                            <img id="asp3" src="assets/img/pay.png" onclick="clickToBigImg(this.id)" alt="Click to enlarge">
                         </li>
                     </ul>
                     <ul class="exp">
@@ -79,7 +86,7 @@
                                 EFE团队联合出品的、 面向在校大学生以及对前端技术有兴趣的前端在线学习平台， 我们希望能够借助百度大量优秀的前
                                 端工程师以及丰富的前端知识积累， 帮助人们更加有趣、 高效、 系统地学习 Web 前端技术。</p>
                             <p>个人完成的任务清单都统一在了github pages上，打开可查询</p>
-                            <a href="http://ak4trl.com/ife_2017_spring/" target="_blank"><img src="assets/img/ife.png" alt=""></a>
+                            <img id="ife1" src="assets/img/ife.png" alt="Click to enlarge" onclick="clickToBigImg(this.id)">
                         </li>
                     </ul>
                 </li>
@@ -95,7 +102,7 @@
                         <li>
                             <div class="circle"></div>
                             <h4>JavaScript</h4>
-                            <p>js红皮书没看完，但是部分需求都能用jquery实现。</p>
+                            <p>js红皮书没看完，部分需求都能用jquery实现。</p>
                         </li>
                     </ul>
                 </li>
